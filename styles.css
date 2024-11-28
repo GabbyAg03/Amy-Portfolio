@@ -15,7 +15,7 @@ nav {
 }
 
 #logo img {
-  width: 64px;
+  width: 62px;
   aspect-ratio: 1;
 }
 
@@ -28,7 +28,7 @@ nav {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 3.5rem;
   margin-block-end: 22px;
 }
 
@@ -40,7 +40,7 @@ p {
 
 .image-container {
   display: flex;
-  gap: 24px;
+  gap: 20px;
 }
 
 .image-container {
@@ -58,7 +58,7 @@ p {
   height: 300px;
   box-sizing: border-box;
   overflow: hidden;
- text-align: left;
+  text-align: left;
 }
 
 #card-1 {
@@ -96,7 +96,6 @@ p {
   justify-content: center;
   margin: 60px auto;
   max-width: 900px;
-  gap: 40px;
 }
 
 .profile-image {
@@ -112,7 +111,6 @@ p {
   height: 300px;
   object-fit: cover;
   background-color: #7CC0B8;
-  padding: 10px;
 }
 
 .profile-text {
