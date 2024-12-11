@@ -13,7 +13,7 @@ flex-direction: column;
 justify-content: center;
 }
 
-.sections, .you-presentation {
+.sections, .presentation {
 margin-inline: auto;
 }
 
@@ -212,7 +212,7 @@ max-height: 4rem;
 height: 100%;
 }
 
-.you-presentation {
+.presentation {
 display: flex;
 max-width: 69.375rem;
 width: 98%;
@@ -221,7 +221,7 @@ align-items: center;
 margin-bottom: 5.5rem;
 }
 
-.you-presentation img {
+.presentation img {
 max-width: 27.8125rem;
 width: 100%;
 height: auto;
@@ -286,7 +286,7 @@ color: #030303;
 text-transform: capitalize;
 }
 
-.img-1, .img-2,.img-3 {
+.imagen-1, .imagen-2,.imagen-3 {
 max-width: 22rem;
 width: 100%;
 height: auto;
@@ -346,6 +346,7 @@ width: fit-content;
 font-size: 1.125rem;
 font-weight: 500;
 }
+
 .contact-button {
 text-decoration: none;
 align-self: center;
@@ -371,24 +372,6 @@ padding-block: 14px;
 #footer {
 margin-top: 3.125rem;
 }
-
-/* Estilos base (Desktop First) */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #FFF7F0;
-  color: #030303;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 
 /* Media Queries */
 
@@ -425,12 +408,12 @@ body {
     width: 100%;
   }
 
-  .you-presentation {
+  .presentation {
     flex-direction: column;
     gap: 2rem;
   }
 
-  .you-presentation img {
+  .presentation img {
     max-width: 20rem;
   }
 
@@ -445,9 +428,9 @@ body {
     gap: 1rem;
   }
 
-  .img-1,
-  .img-2,
-  .img-3 {
+  .imagen-1,
+  .imagen-2,
+  .imagen-3 {
     max-width: 18rem;
   }
 
@@ -488,11 +471,11 @@ body {
     padding: 1rem;
   }
 
-  .you-presentation {
+  .presentation {
     gap: 1.5rem;
   }
 
-  .you-presentation img {
+  .presentation img {
     max-width: 15rem;
   }
 
